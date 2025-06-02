@@ -1,0 +1,112 @@
+// fieldset{
+//     width:30%;
+//     height:80%;
+//     margin:auto;
+//     border-radius: 5px;
+//     margin-top: 10%;
+
+// }
+// .para-container{
+//     text-align: center;
+// }
+// .input-container{
+//     text-align: center;
+
+// }
+
+/* Base Layout */
+/* Base Layout */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #ffffff;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 380px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Text */
+h2 {
+  margin: 8px 0;
+  font-size: 22px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.input-field {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 10px 0;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Links and buttons */
+.options {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.forgot {
+  font-size: 13px;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.create-account {
+  font-size: 14px;
+  text-decoration: none;
+  color: #1a73e8;
+}
+
+.login-button {
+  background-color: #1a73e8;
+  color: white;
+  padding: 8px 18px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0c5fd6;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .login-box {
+    margin: 0 20px;
+    padding: 20px;
+  }
+}
